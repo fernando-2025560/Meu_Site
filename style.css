@@ -10,6 +10,8 @@ html, body {
   background-repeat: no-repeat !important;
 }
 
+iframe[src*="youtube"] { width: 100vw;
+                        height: 56.25vw; }
 .search-container {
     position: absolute !important;
     top: 1px !important;  /* Distância do topo */
@@ -2019,5 +2021,6 @@ footer {
     height: auto;
   }
 }
+
 
 
