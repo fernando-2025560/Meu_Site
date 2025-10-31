@@ -1912,3 +1912,112 @@ main {
   .vid-box iframe { width: 100%; }
   .vid-box p { font-size: 0.8rem; }
 }
+
+
+/* =========================================================
+   RESPONSIVE-UNIVERSAL.CSS
+   Torna qualquer site 100% responsivo sem alterar o layout
+   ========================================================= */
+
+/* ---------- RESET E BASE ---------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100vw;
+  min-height: 100vh;
+  font-family: system-ui, Arial, sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* ---------- CONTAINERS PRINCIPAIS ---------- */
+header, main, section, article, footer, div {
+  width: 100%;
+  max-width: 100vw;
+  margin: 0 auto;
+  padding: 1vw;
+}
+
+/* ---------- IMAGENS E VÍDEOS ---------- */
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+iframe, iframe[src*="youtube.com"], iframe[src*="youtu.be"] {
+  width: 100%;
+  aspect-ratio: 16 / 9; /* mantém proporção dos vídeos */
+  border: none;
+  display: block;
+}
+
+/* ---------- TEXTO ---------- */
+h1, h2, h3, h4, h5, h6 {
+  font-size: clamp(1.5rem, 2vw, 3rem);
+  margin-bottom: 0.5em;
+}
+
+p, span, li, a {
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
+}
+
+/* ---------- BOTÕES E LINKS ---------- */
+button, a {
+  padding: 0.5em 1em;
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+  cursor: pointer;
+}
+
+/* ---------- LAYOUT FLEXIVEL ---------- */
+.container, .flex, .grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1vw;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1vw;
+}
+
+/* ---------- RODAPÉ ---------- */
+footer {
+  padding: 2vh 2vw;
+  text-align: center;
+}
+
+/* ---------- RESPONSIVIDADE ---------- */
+@media (max-width: 1024px) {
+  header, main, section, article, footer {
+    padding: 2vw;
+  }
+}
+
+@media (max-width: 768px) {
+  header, main, section, article, footer {
+    padding: 3vw;
+  }
+
+  iframe, img, video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* ---------- ORIENTAÇÃO PAISAGEM ---------- */
+@media (orientation: landscape) {
+  iframe, img, video {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
