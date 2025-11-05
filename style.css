@@ -1677,6 +1677,7 @@ html, body {
   top: 480px; /*(posição do topo do vídeo) + altura do vídeo + 1mm */
   left: 377.953px;                    /* mesma distância lateral do vídeo */
   width: 320px;                  /* igual à largura do vídeo */
+  height: 180px;
   text-align: absolute;
   font-family: "Segoe UI", Arial, sans-serif;
   font-size: 13px;
@@ -1933,7 +1934,7 @@ html, body {
 }
 
 /* ---------- CONTAINERS PRINCIPAIS ---------- */
-header, main, section, article, footer, div {
+header, main, section, article, div {
   width: 100%;
   max-width: 100vw;
   margin: 0 auto;
@@ -1986,11 +1987,6 @@ button, a {
   gap: 1vw;
 }
 
-/* ---------- RODAPÉ ---------- */
-footer {
-  padding: 2vh 2vw;
-  text-align: center;
-}
 
 /* ---------- RESPONSIVIDADE ---------- */
 @media (max-width: 1024px) {
@@ -2017,6 +2013,7 @@ footer {
     height: auto;
   }
 }
+
 
 
 
