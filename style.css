@@ -154,8 +154,8 @@ h1 {
 }
 
 .search-bar {
-  width: 11cm !important;
-  height: 5mm !important;
+  width: 453.54px !important;
+  height: 3.78px !important;
   padding-left:  0.898021308980213vh !important;
   font-size:  2.43531202435312vh !important;
   border: 0.212298682284041vw solid black !important;
@@ -1994,14 +1994,7 @@ button, a {
 }
 
 @media (max-width: 768px) {
-  header, main, section, article, footer {
-    padding: 3vw;
-  }
-
-  iframe, img, video {
-    width: 100%;
-    height: auto;
-  }
+    /* vazio - não altera nada */
 }
 
 /* ---------- ORIENTAÇÃO PAISAGEM ---------- */
@@ -2011,6 +2004,7 @@ button, a {
     height: auto;
   }
 }
+
 
 
 
