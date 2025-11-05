@@ -1540,8 +1540,8 @@ html, body {
   position: absolute;
   top: 119.884287454324vh;         /* ajuste conforme a posição do seu vídeo */
   left: 2.214411247803163vw;        /* distância da lateral esquerda */
-  width: 18.746338605741066vw;      /* largura padrão do vídeo */
-  height: 21.92448233861145vh;     /* altura padrão do vídeo */
+  width: 320px;      /* largura padrão do vídeo */
+  height: 180px;     /* altura padrão do vídeo */
 }
 
 /* Legenda-link abaixo do vídeo */
@@ -1565,8 +1565,8 @@ html, body {
   position: absolute;
   top: 147.25943970767358vh;         /* ajuste conforme a posição do seu vídeo */
   left: 2.214411247803163vw;        /* distância da lateral esquerda */
-  width: 18.746338605741066vw;      /* largura padrão do vídeo */
-  height: 21.92448233861145vh;     /* altura padrão do vídeo */
+  width: 320px;      /* largura padrão do vídeo */
+  height: 180px;     /* altura padrão do vídeo */
 }
 
 /* Legenda-link abaixo do vídeo */
@@ -2013,6 +2013,7 @@ button, a {
     height: auto;
   }
 }
+
 
 
 
