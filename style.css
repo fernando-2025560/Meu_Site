@@ -154,8 +154,8 @@ h1 {
 }
 
 .search-bar {
-  width: 34.862406474446914vw !important;
-  height: 23.010822277352315vh !important;
+  width: 11cm !important;
+  height: 5mm !important;
   padding-left:  0.898021308980213vh !important;
   font-size:  2.43531202435312vh !important;
   border: 0.212298682284041vw solid black !important;
@@ -876,7 +876,7 @@ canvas {
 #custom-caption {
   display: block;
   margin-top: 0.5753424657534246vh; /* distância de 1mm após o vídeo */
-  width: 100%;        /* mesma largura do vídeo */
+  width: 80%;        /* mesma largura do vídeo */
   font-size: 1.82648401826484vh;
   text-align: absolute;
   text-decoration: underline;
@@ -1073,8 +1073,8 @@ margin-top:  5.752705569338079vh;
 }
 
 #video-area iframe {
-  width: 100%;
-  height: 27.397260273972602vh;    /* Proporção 16:9 para 320px de largura */
+  width: 320px;
+  height: 180px;    /* Proporção 16:9 para 320px de largura */
   border: none;
 }
 
@@ -1102,8 +1102,8 @@ margin-top:  5.752705569338079vh;
 
 /* Miniatura do vídeo */
 .custom-yt-iframe {
-  width: 23.42606149341142vw;
-  height: 27.397260273972602vh;
+  width: 320px;
+  height: 180px;
   border: none;
   border-radius: 0.36603221083455345vw;
 }
@@ -2011,6 +2011,7 @@ button, a {
     height: auto;
   }
 }
+
 
 
 
