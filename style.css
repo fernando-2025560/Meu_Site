@@ -188,7 +188,7 @@ h1 {
 /* Marquee */
 .marquee-container {
   position: absolute;
-  top: 3cm;
+  top: 1.5cm;
   left: 0;
   right: 0;
   font-weight: bold;
@@ -392,8 +392,8 @@ body {
   position: absolute;
   top: 13.23122280947758vh;
   left: 2.766857656702136vw;
-  width: 27.81844802342606vw;
-  height: 31.963470319634702vh;
+  width: 320px;
+  height: 180px;
   border-radius: 0.36603221083455345vw;
   overflow: hidden;
   cursor: pointer;
@@ -2011,6 +2011,7 @@ button, a {
     height: auto;
   }
 }
+
 
 
 
