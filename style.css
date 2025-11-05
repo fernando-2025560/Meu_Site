@@ -308,8 +308,8 @@ h1 {
   position: fixed !important;
   left: 92.5% !important;
   bottom: 37.79527559px !important;
-  width: 2.766857656661786vw   !important;
-  height: 14.729071537290716vh     !important;
+  width: 2.766857656661786vw   ;
+  height: 14.729071537290716vh   ;
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
@@ -317,8 +317,8 @@ h1 {
 }
 
 #qrcode {
-  width: 12.633181126331811vh !important;
-  height: 6.076134699853587vw !important;
+  width: 113px !important;
+  height: 113px !important;
   position: fixed;
   bottom: 26.924963396778917vw;
 }
@@ -2011,6 +2011,7 @@ button, a {
     height: auto;
   }
 }
+
 
 
 
