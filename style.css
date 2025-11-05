@@ -1492,6 +1492,7 @@ html, body {
   left: 42.068555138867744vw;        /* distância da lateral esquerda */
   width: 320px;      /* largura padrão do vídeo */
   height: 180px;     /* altura padrão do vídeo */
+  margin: 10cm;
 }
 
 /* Legenda-link abaixo do vídeo */
@@ -1501,11 +1502,11 @@ html, body {
   left: 42.068555138867744vw;                    /* mesma distância lateral do vídeo */
   width: 18.746338605741066vw;                  /* igual à largura do vídeo */
   text-align: absolute;
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 13px;
   line-height: 1.1;
   color: #ffffff;
-  margin: 0;
+  margin: 10cm;
   padding: 0;
   text-decoration: underline;
 }
@@ -2013,6 +2014,7 @@ button, a {
     height: auto;
   }
 }
+
 
 
 
