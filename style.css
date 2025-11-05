@@ -188,7 +188,7 @@ h1 {
 /* Marquee */
 .marquee-container {
   position: absolute;
-  top: 10.502283105022832vh;
+  top: 3.1cm;
   left: 0;
   right: 0;
   font-weight: bold;
@@ -2013,6 +2013,7 @@ button, a {
     height: auto;
   }
 }
+
 
 
 
