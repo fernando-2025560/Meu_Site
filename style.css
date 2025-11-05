@@ -1184,9 +1184,6 @@ html, body {
   padding: 1.4641288433382138vw;
 }
 
-h2 {
-  margin-bottom: 2.2831050228310503vh;
-}
 
 .video-grid  {
   display: grid;
@@ -1199,7 +1196,7 @@ h2 {
   width: 100%;
   aspect-ratio: 16 / 9;
   border: none;
-  border-radius: 0.351493848857645vwpx;
+  border-radius: 0.351493848857645vw;
 }
 
 .bloco {
@@ -1275,7 +1272,7 @@ html, body {
 }
 
 .vid-box a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #000;
 }
 
@@ -1288,15 +1285,15 @@ html, body {
   position: absolute;
   top: 65.37063500436379vh;
   left: 2.2141344809930392vw;
-  width: 18.746338605741066vw;
-  height: 21.92448233861145vh;
+  width: 320px;
+  height: 180px;
   border-radius: 0.29291154071470415vw;
 }
 
 
  /* Aumenta o tamanho da barra de rolagem */
 ::-webkit-scrollbar {
-  width: 0.9373169302870533vw; /* Largura da barra de rolagem */
+  width: 4mm; /* Largura da barra de rolagem */
 }
 
 ::-webkit-scrollbar-thumb {
@@ -1527,7 +1524,7 @@ html, body {
   left: 22.14118336262449vw;                    /* mesma distância lateral do vídeo */
   width: 18.746338605741066vw;                  /* igual à largura do vídeo */
   text-align: absolute;
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family:  Arial, sans-serif;
   font-size: 13px;
   line-height: 1.1;
   color: #ffffff;
@@ -1552,7 +1549,7 @@ html, body {
   left: 2.214411247803163vw;                    /* mesma distância lateral do vídeo */
   width: 18.746338605741066vw;                  /* igual à largura do vídeo */
   text-align: absolute;
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family:  Arial, sans-serif;
   font-size: 13px;
   line-height: 1.1;
   color: #ffffff;
@@ -1577,7 +1574,7 @@ html, body {
   left: 4.604141291108403vh;                    /* mesma distância lateral do vídeo */
   width: 18.746338605741066vw;                  /* igual à largura do vídeo */
   text-align: absolute;
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family:  Arial, sans-serif;
   font-size: 13px;
   line-height: 1.1;
   color: #000;
@@ -1602,7 +1599,7 @@ html, body {
   left: 377.953px;                    /* mesma distância lateral do vídeo */
   width: 320px;                  /* igual à largura do vídeo */
   text-align: absolute;
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family:  Arial, sans-serif;
   font-size: 13px;
   line-height: 1.1;
   color: #000;
@@ -1627,7 +1624,7 @@ html, body {
   left: 718.11px;                    /* mesma distância lateral do vídeo */
   width: 320px;                  /* igual à largura do vídeo */
   text-align: absolute;
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family:  Arial, sans-serif;
   font-size: 13px;
   line-height: 1.1;
   color: #000;
@@ -1652,7 +1649,7 @@ html, body {
   left: 718.1102362204724px;                    /* mesma distância lateral do vídeo */
   width: 320px;                  /* igual à largura do vídeo */
   text-align: absolute;
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family:  Arial, sans-serif;
   font-size: 13px;
   line-height: 1.1;
   color: #ffffff;
@@ -1680,7 +1677,7 @@ html, body {
   width: 320px;                  /* igual à largura do vídeo */
   height: 180px;
   text-align: absolute;
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family:  Arial, sans-serif;
   font-size: 13px;
   line-height: 1.1;
   color: #000;
@@ -2014,6 +2011,7 @@ button, a {
     height: auto;
   }
 }
+
 
 
 
