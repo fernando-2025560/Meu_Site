@@ -1351,8 +1351,8 @@ html, body {
 }
 
 #customYT3 {
-  width: 18.746338605741066vw;
-  height: 21.92448233861145vh;
+  width: 320px;
+  height: 180px;
 }
 
 #videoCaption3 {
@@ -1376,8 +1376,8 @@ html, body {
   position: absolute;
   top: 64.44945188794154vh; /* 14 cm do topo da tela */
   left:  42.068541300527244vw; /* 19 cm da lateral esquerda */
-  width: 18.746338605741066vw; /* Largura do vídeo */
-  height: 21.92448233861145vh; /* Altura do vídeo */
+  width: 320px; /* Largura do vídeo */
+  height: 180px; /* Altura do vídeo */
   background-color: #000; /* Fundo preto para o contêiner do vídeo */
 }
 
@@ -1429,8 +1429,8 @@ html, body {
 
 /* Estilo do iframe do vídeo */
 #customVideoBox5 iframe {
-  width: 18.746338605741066vw;      /* largura fixa do vídeo */
-  height: 10.54481546572935vw;     /* altura proporcional */
+  width: 320px;      /* largura fixa do vídeo */
+  height: 180px;     /* altura proporcional */
   border: none;      /* remove borda */
 }
 
@@ -1513,8 +1513,8 @@ html, body {
   position: absolute;
   top: 119.884287454324vh;         /* ajuste conforme a posição do seu vídeo */
   left: 22.14118336262449vw;        /* distância da lateral esquerda */
-  width: 18.746338605741066vw;      /* largura padrão do vídeo */
-  height: 21.92448233861145vh;     /* altura padrão do vídeo */
+  width: 320px;      /* largura padrão do vídeo */
+  height: 180px;     /* altura padrão do vídeo */
 }
 
 /* Legenda-link abaixo do vídeo */
@@ -1547,7 +1547,7 @@ html, body {
   position: absolute;
   top: calc(119.884287454324vh + 21.92448233861145vh); /* 26cm (posição do topo do vídeo) + altura do vídeo + 1mm */
   left: 2.214411247803163vw;                    /* mesma distância lateral do vídeo */
-  width: 18.746338605741066vw;                  /* igual à largura do vídeo */
+  width: 320px;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family:  Arial, sans-serif;
   font-size: 13px;
@@ -1588,8 +1588,8 @@ html, body {
   position: absolute;
   top: 147.25943970767358vh;         /* ajuste conforme a posição do seu vídeo */
   left: 22.141359109548915vw;        /* distância da lateral esquerda */
-  width: 18.746338605741066vw;     /* largura padrão do vídeo */
-  height: 21.92448233861145vh;     /* altura padrão do vídeo */
+  width: 320px;     /* largura padrão do vídeo */
+  height: 180px;     /* altura padrão do vídeo */
 }
 
 /* Legenda-link abaixo do vídeo */
@@ -2011,6 +2011,7 @@ button, a {
     height: auto;
   }
 }
+
 
 
 
