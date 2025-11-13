@@ -4,136 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ciência</title>
-    <!-- Importa o CSS externo -->
     <link rel="stylesheet" href="style.css">
-    <!-- Fonte e bibliotecas -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link rel="stylesheet" href="responsive-vh-vw.css">
-
-</head>
     <!-- Plyr CSS -->
 <!-- link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css"-->
-<body>
-  <!-- Logo e título -->
-  <img src="3.jpg" alt="Logo" id="logo">
-           
-           <header>  
-           <h1>Moldando o Amanhã</h1>
-           </header>
-  <!-- Barra de pesquisa -->
-           <main>
-            <section>
-            <input type="text" id="campoBusca" class="search-bar" placeholder="Digite aqui">
-            <button class="search-button" onclick="buscarNoGoogle()">Pesquisar</button>
-            </section>   
-          </main>
 
 
-            <!-- Texto em movimento -->  
-        
-<nav>
-  <div class="marquee-container">
-          <marquee direction="left">
-            <strong>A Vida como você nunca viu antes: A ciência e a engenharia genética revolucionando o mundo, o futuro não espera. Ele é projetado! Moldado pela inovação e pela coragem de ir além do limite um dia existente.</strong>
-          </marquee>
-      </div>
-  </nav>
-
-
-
-<!-- QR Code -->
-<div id="qrcode-container">
-  <div id="qrcode"></div>
-</div>
-
-
-<body>
-  <div id="qrcode-container">
-    <h2></h2>
-      <div id="qrcode"></div>
-  <a class="link" href="https://www.genome.gov/human-genome-project" target="_blank"></a>
-  </div>
-
-            <!-- ÍCONES DE FONTES E PARCEIROS -->
-
-          <div class="icon-glass-container">
-            
-            <!-- FastBio -->
-            <!-- 1 -->
-
-            <a href="https://www.fastbio.com.br/sintese-de-genes/" target="_blank" class="glass-icon" title="FastBio">
-              <svg class="glass-svg" viewBox="0 0 512 512"><path d="M466.5
-                83.7C443.1 60.3 411.7 48 376  48c-63.6 0 -128 53.5-192
-                160-64-106.5-128.4-160-192-160C20.3 48 0 68.3 0 93.3c0 22.1 12.6 38.2 32.4
-                48.1 27.3 13.3 58.2  32.6 96.4 72.1-38.2 39.5-69.1  58.8-96.4 72.1C12.6
-                296.6 0 312.7 0 334.8c0 25 20.3 45.3 45.3 63.6 0 128-53.5 192-160 64
-                106.5 128.4 160 192 160 34.7 0 67.1-12.3 90.5-35.7 20.2-20.3 30.5-47.3
-                30.5 -76.7s-10.3-56.4-30.5-76.7c-23.4-23.4-55.8-35.7-90.5-35.7z"/></svg>
-            </a>
-
-         
-          <!-- UFSM -->  
-          <!-- 2 -->
-          <a href="https://www.ufsm.br/r-601-218" target="_blank"
-        class="glass-icon" title="UFSM">
-              <svg class="glass-svg" viewBox="0 0 512 512"><path d="M256 0L0
-        128l256 128 256-128L256 0zm0 224L42.7 128 256 32l2l3.3 96L256 224zM64
-        192v192h96V192H64zm288 0v192h96V192h-96zm-160 32h64v160h-64V224z"/></svg>
-          </a>
-
-
-          <!-- SeeGene -->
-          <!-- 3 -->
-          <a href="https://www.seegenebrazil.com.br/" target="_blank"
-      class="glass-icon" title="SeeGene">
-      <svg class="glass-svg" viewBox="0 0 512 512"><path d="M256 0L0
-        128l256 128 256-128L256 0zm0 224L42.7 128 256 32l2l3.3 96L256 224zM64
-        192v192h96V192H64zm288 0v192h96V192h-96zm-160 32h64v160h-64V224z"/></svg>
-          </a>
-
-      
-      
-          <!-- CropLife -->
-          <!-- 4 -->
-      <a
-    href="https://croplifebrasil.org/" target="_blank" class="glass-icon" title="CropLife">
-          <svg class="glass-sgv" viewBox="0 0 24 24"><path d="M12 2a7 7 0 00-7 7c0 3.2.2.1.6.6.6.4 10.6a1 1 0 001.2 0C17.9 15.6 20 12.2 20 9a7 7 0
-            00-7-7zm0 9a2 2 0 110-4 2 2 0 010 4z"/></svg>
-      </a>
-
-      
-      <!-- BBC -->
-      <!-- 5 -->
-      <a
-      href="https://www.bbc.com/portuguese/articles/cly18l44dwno" target="_blank" class="glass-icon"
-      title="BBC"> 
-            <svg class="glass-svg" viewBox="0  0 24 24"><path d="M12 15.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zm8.94-2.5c.04-33.06-66.06-1s-02-.67-.
-              06-1l2.12-1.65a.5.5 0 0 0 .12-.64l-2-3.46a.5.5 0 0 0-.6-.22l-2.49 1a8.12
-              8.12 0 0 0-1.73-1L15.5 2.6a.5.5 0 0 0-.5.6l-.38
-              2.52a8.12 8.12 0 0 0-1.73 1l-2.49-1a.5.5 0 0 0-.6.22l-2 3.46a.5.5 0 0 0 .
-              12.64L3.06 11c-.04.33-.06.66-.06 1s.02.67.06 1L.94 14.65a.5.5 0  0 0-.
-              12.64l23.46a.5.5 0 0 0 .6.22l2.49-1a8.12 8.12 0 0 0 1.73 1l.38 2.52a.5.5
-              0 0 0 .5.6h4a.5.5 0 0 0 .5-.6l.38-2.52a8.12 8.12 0 0 0 1.73-1l2.49 1a.5.5
-              0 0 0 .6-.22l2-3.46a.5.5 0 0 0-.12-.64L20.94 13z"/></svg>
-      </a>
-
-      
-      
-      <!-- 6 -->
-      <a
-    href="https://www.profissaobiotec.com.br/dna-sintetico-expensao-alfabeto-genetico/" target="_blank"
-    class="glass-icon" title="Profissão  Biotec">
-      <svg class="glass-svg" viewBox="0 0 24 24"><path d="M6 2h12a2 2 0 0
-        1 2 2v16a1 1 0 0 1-1.45.9L12 18.1l-6.55 2.8A1 1 0 0 1 4 20V4a2 2 0 0 1
-      1 2 2v16a1 1 0 0 1-1.45.9L12 18.1l-6.55 2.8A1 1 0 0 1 4 20V4a2 2 0 0 1
-      2-2z"/></svg>
-      </a>
-
-          </div>
-          
-         
     <style>
 
 
@@ -150,7 +28,7 @@
         .barra {
             /* Estilos para a barra */
             background-color: #f1f1f1;
-            padding: 0.625rem;
+            padding: 10px;
         }
 
         .botao-direita {
@@ -162,7 +40,7 @@
             padding: 0;
             display: flex;
             justify-content: center;
-            left: 0.938rem;
+            left: 15px;
             align-items: start;
             height: 100vh;
             font-family: Arial, sans-serif;
@@ -177,7 +55,7 @@
         .max-width {
         background-image: url(1.jpg);
         width: 100vw;
-        height: 150vh;
+        height: 100vh;
         margin: 0 auto;
         background-size: cover;
         background-repeat: no-repeat;
@@ -189,11 +67,11 @@
     <style>
        /* Estilo para posicionar o h1 no canto superior esquerdo */
        h1 {
-            font-size: 1.538rem !important;
+            font-size: 24.6px !important;
             position: absolute !important; 
-            top: 0.5rem !important;
-            left: 6.625rem !important; 
-            margin: 0.625rem !important; /* Ajusta a margem conforme necessário */
+            top: 8px !important;
+            left: 106px !important; 
+            margin: 10px !important; /* Ajusta a margem conforme necessário */
     }
 
     .barra-de-pesquisa {
@@ -201,7 +79,7 @@
       top: 0;
       left: 50%;
       background-color: white;
-      padding: 0.625rem;
+      padding: 10px;
 
     }
     
@@ -212,7 +90,12 @@
 
 
 
-</body>
+
+<img src="3.jpg" alt="Logo" id="logo" style="position: absolute; top:0 ; left: 0; width: 113px; height: 70.4px;">
+         <header>  
+         <h1 style="font-style: italic;">Moldando o Amanhã</h1>
+         </header>
+        
 
 
         <style>
@@ -231,34 +114,34 @@
             }
         
             .search-bar {
-              width: 11.2cm !important;
-              height: 5mm !important;
-              padding-left: 0.369rem !important;
-              font-size: 1rem !important;
-              border: 0.181rem solid black !important;
-              border-radius: 1rem !important;
+              width: 34.8vw !important;
+              height: 4.7vh !important;
+              padding-left: 5.9px !important;
+              font-size: 16px !important;
+              border: 2.9px solid black !important;
+              border-radius: 16px !important;
               position: absolute !important;
-              top: 1mm !important;
+              top: 7.6px !important;
               left: 50% !important;
               transform: translateX(-50%) !important;
               z-index: 99 !important;
          }
         
             .search-button {
-              width: 3cm;
-              height: 5mm;
-              font-size: 1.538rem;
-              border: 0.181rem solid black;
-              border-left: 0.563rem;
-              border-radius: 1rem;
+              width: 8.4vw;
+              height: 4.7vh;
+              font-size: 16px;
+              border: 2.9px solid black;
+              border-left: 9px;
+              border-radius: 16px;
               color: black;
               cursor: pointer;
-              margin-left: 3.5007610350076104vh;
+              margin-left: 23px;
               background-color: transparent;
               position: absolute;
-              top:  1mm;
+              top: 7.6px;
               z-index: 99;
-              right: 50.182648401826484vh;
+              right: 329.7px;
             }
         
               </style>
@@ -268,7 +151,77 @@
         <body>
           
 
+          <div class="icon-glass-container">
+            
+            <!-- 1 -->
+
+            <a href="https://www.fastbio.com.br/sintese-de-genes/" target="_blank" class="glass-icon" title="FastBio">
+              <svg class="glass-svg" viewBox="0 0 512 512"><path d="M466.5
+                83.7C443.1 60.3 411.7 48 376  48c-63.6 0 -128 53.5-192
+                160-64-106.5-128.4-160-192-160C20.3 48 0 68.3 0 93.3c0 22.1 12.6 38.2 32.4
+                48.1 27.3 13.3 58.2  32.6 96.4 72.1-38.2 39.5-69.1  58.8-96.4 72.1C12.6
+                296.6 0 312.7 0 334.8c0 25 20.3 45.3 45.3 63.6 0 128-53.5 192-160 64
+                106.5 128.4 160 192 160 34.7 0 67.1-12.3 90.5-35.7 20.2-20.3 30.5-47.3
+                30.5 -76.7s-10.3-56.4-30.5-76.7c-23.4-23.4-55.8-35.7-90.5-35.7z"/></svg>
+            </a>
+
+            
+          <!-- 2 -->
+          <a href="https://www.ufsm.br/r-601-218" target="_blank"
+        class="glass-icon" title="UFSM">
+              <svg class="glass-svg" viewBox="0 0 512 512"><path d="M256 0L0
+        128l256 128 256-128L256 0zm0 224L42.7 128 256 32l2l3.3 96L256 224zM64
+        192v192h96V192H64zm288 0v192h96V192h-96zm-160 32h64v160h-64V224z"/></svg>
+          </a>
+
+          <!-- 3 -->
+          <a href="https://www.seegenebrazil.com.br/" target="_blank"
+      class="glass-icon" title="SeeGene">
+      <svg class="glass-svg" viewBox="0 0 512 512"><path d="M256 0L0
+        128l256 128 256-128L256 0zm0 224L42.7 128 256 32l2l3.3 96L256 224zM64
+        192v192h96V192H64zm288 0v192h96V192h-96zm-160 32h64v160h-64V224z"/></svg>
+          </a>
+
+      <!-- 4 -->
+      <a
+    href="https://croplifebrasil.org/" target="_blank" class="glass-icon" title="CropLife">
+          <svg class="glass-sgv" viewBox="0 0 24 24"><path d="M12 2a7 7 0 00-7 7c0 3.2.2.1.6.6.6.4 10.6a1 1 0 001.2 0C17.9 15.6 20 12.2 20 9a7 7 0
+            00-7-7zm0 9a2 2 0 110-4 2 2 0 010 4z"/></svg>
+      </a>
+
+      <!-- 5 -->
+      <a
+      href="https://www.bbc.com/portuguese/articles/cly18l44dwno" target="_blank" class="glass-icon"
+      title="BBC"> 
+            <svg class="glass-svg" viewBox="0  0 24 24"><path d="M12 15.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zm8.94-2.5c.04-33.06-66.06-1s-02-.67-.
+              06-1l2.12-1.65a.5.5 0 0 0 .12-.64l-2-3.46a.5.5 0 0 0-.6-.22l-2.49 1a8.12
+              8.12 0 0 0-1.73-1L15.5 2.6a.5.5 0 0 0-.5.6l-.38
+              2.52a8.12 8.12 0 0 0-1.73 1l-2.49-1a.5.5 0 0 0-.6.22l-2 3.46a.5.5 0 0 0 .
+              12.64L3.06 11c-.04.33-.06.66-.06 1s.02.67.06 1L.94 14.65a.5.5 0  0 0-.
+              12.64l23.46a.5.5 0 0 0 .6.22l2.49-1a8.12 8.12 0 0 0 1.73 1l.38 2.52a.5.5
+              0 0 0 .5.6h4a.5.5 0 0 0 .5-.6l.38-2.52a8.12 8.12 0 0 0 1.73-1l2.49 1a.5.5
+              0 0 0 .6-.22l2-3.46a.5.5 0 0 0-.12-.64L20.94 13z"/></svg>
+      </a>
+
+      <!-- 6 -->
+      <a
+    href="https://www.profissaobiotec.com.br/dna-sintetico-expensao-alfabeto-genetico/" target="_blank"
+    class="glass-icon" title="Profissão  Biotec">
+      <svg class="glass-svg" viewBox="0 0 24 24"><path d="M6 2h12a2 2 0 0
+        1 2 2v16a1 1 0 0 1-1.45.9L12 18.1l-6.55 2.8A1 1 0 0 1 4 20V4a2 2 0 0 1
+      1 2 2v16a1 1 0 0 1-1.45.9L12 18.1l-6.55 2.8A1 1 0 0 1 4 20V4a2 2 0 0 1
+      2-2z"/></svg>
+      </a>
+
+          </div>
           
+          <main>
+            <section>
+            <input type="text" id="campoBusca" class="search-bar" placeholder="Digite aqui">
+            <button class="search-button" onclick="buscarNoGoogle()">Pesquisar</button>
+            </section>   
+          </main>
+
         
           
           <script>
@@ -282,13 +235,29 @@
         
             
           </script>
-      
+        
+        
+        <nav>
+            <body style="margin: 0; padding: 0; height: 100vh;">
+                <div style="position: absolute; top: 69px; left: 0; right: 0; bottom: 0; overflow-y: auto;">
+                    <marquee direction="left"><strong>A Vida como você nunca viu antes: A ciência e a engenharia genética revolucionando o mundo, o futuro não espera. Ele é projetado! Moldado pela inovação e pela coragem de ir além do limite um dia existente.</strong></marquee>
+                </div>
+              </body>
+            
+        </nav>
+    
         
 
-    <!-- LISTA DE VÍDEOS -->          
-    <section class="video-gallery">
-      <h2></h2>  
-        
+              
+        <script
+        src="https://www.cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+        <body>
+          <div id="qrcode-container">
+            <h2></h2>
+              <div id="qrcode"></div>
+          <a class="link" href="https://www.genome.gov/human-genome-project" target="_blank"></a>
+          </div>
+
 
           <!-- Container do vídeo -->
 <div class="video-container" id="videoBox">
@@ -344,11 +313,11 @@
   <body>
 
   <!-- Container do gráfico -->
-  <div class="chart-wrap">
-    <h2></h2>
+  <div class="chart-wrap" id="biotechChart">
+
     <!-- SVG no canto inferior-direito (gatilho) -->
-    <svg id="chartSVG" width="121vw" height="80vh" xmlns="http://www.w3.org/2000/svg">
-      <rect x="14" y="10" width="100vw" height="50vh" fill="#3498db" />
+    <svg id="chartSVG" width="121" height="80" xmlns="http://www.w3.org/2000/svg">
+      <rect x="14" y="10" width="100" height="50" fill="#3498db" />
       <text x="15" y="40" fill="#fff">Gráfico Dinâmico</text>
     </svg>
 
@@ -378,7 +347,7 @@
   <iframe id="customYT" 
   src="https://www.youtube.com/embed/yh-RrGHL5c8?list=PLsRNoUx8w3rOwHx4kVJL5ksS9vTxj5hXn&index=80&rel=0&modestbranding=1&fs=0&controls=1&disablekb=1&iv_load_policy=3" 
   frameborder="0" 
-  allow="autoplay; encrypted-media; width: 320px; height: 180px">
+  allow="autoplay; encrypted-media">
 </iframe>
 <div id="videoCaption">
   <a href="https://www.ufsm.br/midias/arco/post218" target="_blank">A resposta que você procura pode estar neste episódio</a>
@@ -393,7 +362,7 @@
     allow="autoplay; encrypted-media">
   </iframe>
   <div id="videoCaption2">
-    <a href="https://www.ufsm.br/midias/arco/post218" target="_blank">Mas, e se fosse possível reduzir todo esse longo processo através de uma simples máquina?</a>
+    <a href="https://www.ufsm.br/midias/arco/post218" target="_blank">"A Ciência Revela: A Resposta Estava Aqui o Tempo Todo!"</a>
   </div>
 </div>
 
@@ -491,8 +460,8 @@
 <div id="customVideoBox8">
   
   <iframe
-    width="320px" !important;
-    height="180px" !important;
+    width="320px"
+    height="180px"
     src="https://www.youtube.com/embed/mR9CZXdTaNY?rel=0&modestbranding=1&fs=0&controls=1&disablekb=1&iv_load_policy=3"
     title="YouTube Shorts"
     frameborder="0"
@@ -641,7 +610,6 @@
     <script src="app.js" defer></script>
 </body>    
 </html>
-
  
 
 
