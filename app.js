@@ -224,8 +224,8 @@ document.addEventListener("DOMContentLoaded", function () {
   
     new QRCode(document.getElementById("qrcode"), {
       text: url,
-      width: 113,   // 3cm ≈ 113px
-      height: 113,
+      width: 7.063rem,   // 3cm ≈ 113px
+      height: 7.063rem,
       colorDark: "#000000",
       colorLight: "#ffffff",
       correctLevel: QRCode.CorrectLevel.H
@@ -293,7 +293,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const css = `
     /* Estilos conforme especificado acima */
-    #custom-overlay-container { position: absolute; top: 113px; left: 566.9291338582676px; pointer-events: none; }
+    #custom-overlay-container { position: absolute; top: 7.063rem; left: 566.9291338582676px; pointer-events: none; }
     #custom-overlay-container > * { pointer-events: auto; }
     #custom-video { position: relative; z-index: 2; display: block; }
     #custom-image { position: relative; z-index: 1; display: block; }
@@ -446,7 +446,7 @@ const chartContainer = document.getElementById('chartContainer');
 let chartInitialized = false;
 let dnaChart; // armazenar a instância do gráfico
 
-// Dados reais (fonte: OMS, UNESCO, OECD 2024 - valores aproximados)
+// Dados reais (fonte: OMS, UNESCO, OECD 2025 - valores aproximados)
 const initialData = {
   labels: ['OMS', 'Brasil', 'União Europeia'],
   datasets: [
@@ -744,9 +744,9 @@ document.head.appendChild(customTag);
 function ajustarColunas() {
   const gallery = document.querySelector('.video-gallery');
   if(window.innerWidth < 1050) {
-    gallery.style.gridTemplateColumns = 'repeat(2, 320px)';   // 2 colunas em telas menores
+    gallery.style.gridTemplateColumns = 'repeat(2, 20rem)';   // 2 colunas em telas menores
   } else {
-    gallery.style.gridTemplateColumns = 'repeat(3, 320px)';
+    gallery.style.gridTemplateColumns = 'repeat(3, 20rem)';
   }
 }
 
@@ -769,7 +769,7 @@ function ajustarLayout() {
     videos.forEach(video => {
       video.style.width = "100%";
       video.style.height = "auto";
-      video.style.maxWidth = "320px";
+      video.style.maxWidth = "20rem";
       video.style.display = "block";
       video.style.margin = "0 auto";
     });
@@ -778,7 +778,7 @@ function ajustarLayout() {
     imagens.forEach(img => {
       img.style.width = "100%";
       img.style.height = "auto";
-      img.style.maxWidth = "320px";
+      img.style.maxWidth = "20rem";
       img.style.borderRadius = "12px";
       img.style.display = "block";
       img.style.margin = "10px auto";
@@ -843,5 +843,6 @@ function ajustarLayout() {
 // Executa o ajuste ao carregar e redimensionar
 window.addEventListener("load", ajustarLayout);
 window.addEventListener("resize", ajustarLayout);
+
 
 
