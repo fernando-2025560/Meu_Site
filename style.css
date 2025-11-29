@@ -1,15 +1,15 @@
 html, body {
   margin: 0 !important;
   padding: 0 !important;
-  min-width: 100% !important;
-  min-height: 190% !important;
+  min-width: 100% !important; /* Evita problemas em telas muito pequenas */
+  height: 149% !important;
+  min-height: 149% !important;
   background-image: url(1.jpg) !important;
   background-size: cover !important;
   background-position: center center !important;
   background-attachment: scroll !important;
   background-repeat: no-repeat !important;
 }
-
 
 
 .search-container {
@@ -2006,6 +2006,7 @@ button, a {
     height: auto;
   }
 }
+
 
 
 
