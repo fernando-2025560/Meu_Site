@@ -190,7 +190,7 @@ h1 {
 /* Marquee */
 .marquee-container {
   position: absolute;
-  top: 1.5cm;
+  top: 2.953vw;
   left: 0;
   right: 0;
   font-weight: bold;
@@ -1331,7 +1331,7 @@ html, body {
 #videoCaption2 {
   margin-top: 4.603565845377732vh;
   width: 18.746338605741066vw;
-  font-size: 1.5834348355663825vh;
+  font-size: 0.8rem;
   color: #000;
 }
 
@@ -1360,7 +1360,7 @@ html, body {
 #videoCaption3 {
   margin-top: 37.79527559055118px;
   width: 18.746338605741066vw;
-  font-size: 13px;
+  font-size: 0.8rem;
   color: #000;
 }
 
@@ -1394,7 +1394,7 @@ html, body {
   margin-top: 1.218026796589525vh;
   text-align: absolute;
   font-family: Arial, sans-serif;
-  font-size: 1.5834348355663825vh;
+  font-size: 0.8rem;
   color: #000;
 }
 
@@ -1474,7 +1474,7 @@ html, body {
 .video-caption {
   display: block;
   margin-top: 0.22141344809930394vw;           /* 1 mm abaixo do vídeo */
-  font-size: 13px;
+  font-size: 0.8rem;
   font-family: Arial, sans-serif;
   color: #000;
   text-decoration: underline;
@@ -1502,7 +1502,7 @@ html, body {
   width: 18.746338605741066vw;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family: Arial, sans-serif;
-  font-size: 13px;
+  font-size: 0.8rem;
   line-height: 1.1;
   color: #ffffff;
   margin: 10cm;
@@ -1527,7 +1527,7 @@ html, body {
   width: 18.746338605741066vw;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family:  Arial, sans-serif;
-  font-size: 13px;
+  font-size: 0.8rem;
   line-height: 1.1;
   color: #ffffff;
   margin: 0;
@@ -1552,7 +1552,7 @@ html, body {
   width: 20rem;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family:  Arial, sans-serif;
-  font-size: 13px;
+  font-size: 0.8rem;
   line-height: 1.1;
   color: #ffffff;
   margin: 0;
@@ -1577,7 +1577,7 @@ html, body {
   width: 18.746338605741066vw;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family:  Arial, sans-serif;
-  font-size: 13px;
+  font-size: 0.8rem;
   line-height: 1.1;
   color: #000;
   margin: 0;
@@ -1602,7 +1602,7 @@ html, body {
   width: 20rem;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family:  Arial, sans-serif;
-  font-size: 13px;
+  font-size: 0.8rem;
   line-height: 1.1;
   color: #000;
   margin: 0;
@@ -1627,7 +1627,7 @@ html, body {
   width: 20rem;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family:  Arial, sans-serif;
-  font-size: 13px;
+  font-size: 0.8rem;
   line-height: 1.1;
   color: #000;
   margin: 0;
@@ -1652,7 +1652,7 @@ html, body {
   width: 20rem;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family:  Arial, sans-serif;
-  font-size: 13px;
+  font-size: 0.8rem;
   line-height: 1.1;
   color: #ffffff;
   margin: 0;
@@ -1680,7 +1680,7 @@ html, body {
   height: 11.25rem;
   text-align: absolute;
   font-family:  Arial, sans-serif;
-  font-size: 13px;
+  font-size: 0.8rem;
   line-height: 1.1;
   color: #000;
   margin: 0;
@@ -2006,6 +2006,7 @@ button, a {
     height: auto;
   }
 }
+
 
 
 
