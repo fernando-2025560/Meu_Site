@@ -2,8 +2,7 @@ html, body {
   margin: 0 !important;
   padding: 0 !important;
   min-width: 100% !important; /* Evita problemas em telas muito pequenas */
-  height: 149% !important;
-  min-height: 149% !important;
+  min-height: 167% !important;
   background-image: url(1.jpg) !important;
   background-size: cover !important;
   background-position: center center !important;
@@ -2006,6 +2005,7 @@ button, a {
     height: auto;
   }
 }
+
 
 
 
